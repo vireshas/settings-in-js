@@ -1,0 +1,4 @@
+{
+    //hierarchy: [admin, operator, scheduler]
+    hierarchy: [account, feed, region]
+}
