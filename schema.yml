@@ -2,7 +2,7 @@ Media:
   -
     scope: feed
     setting_name: auto_assign_type
-    data_type: map<string: regex>
+    data_type: "map<string: regex>"
     example:
       auto_assign_type:
         from: asset_id or filename
