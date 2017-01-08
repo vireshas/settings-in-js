@@ -1,0 +1,13 @@
+scope: feed
+setting_name: auto_assign_type
+data_type: "map<string: regex>"
+example:
+  auto_assign_type:
+    from: asset_id or filename
+    songs: ^B4USO
+    commercials: ^B4UCO | ^CO
+    program_segment: .*_0[2-9]$ | .*_[1-9]\d$
+prefill:
+  auto_assign_type:
+    songs: ^SONG
+    commercials: ^COM
