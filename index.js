@@ -25,8 +25,6 @@ const options = {
     }
 };
 
-
-
 server.route({
     method: 'GET',
     path: '/',
