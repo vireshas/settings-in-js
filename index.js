@@ -10,18 +10,17 @@ const options = {
     },
     reporters: {
         myFileReporter: [
-		  {
-              module: 'good-squeeze',
-              name: 'Squeeze',
-              args: [{ log: '*', response: '*', error: '*'}]
-          }, {
-              module: 'good-squeeze',
-              name: 'SafeJson'
-          }, {
-              module: 'good-file',
-              args: ['./log/hapi.log']
-          }
-		]
+		    {
+          module: 'good-squeeze',
+          name: 'Squeeze',
+          args: [{ log: '*', response: '*', error: '*'}]
+        }, {
+          module: 'good-squeeze',
+          name: 'SafeJson'
+        }, {
+          module: 'good-file',
+          args: ['./log/hapi.log']
+        }]
     }
 };
 
